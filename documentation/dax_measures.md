@@ -6,7 +6,7 @@ This document lists and explains all DAX measures created in the `_Mesures` tabl
 
 ## Basic Measures
 
-### Salaire Moyen (Average Salary)
+### Average Salary (Average Salary)
 ```dax
 Salaire Moyen = AVERAGE(Fact_Salaires[salary_in_usd])
 ```
@@ -14,7 +14,7 @@ Returns the average salary in USD across the filtered context.
 
 ---
 
-### Nb Offres (Number of Job Offers)
+### Job Offers (Number of Job Offers)
 ```dax
 Nb Offres = COUNTROWS(Fact_Salaires)
 ```
@@ -22,7 +22,7 @@ Counts the total number of job postings in the current filter context.
 
 ---
 
-### Nb Pays (Number of Countries)
+### Country Count (Number of Countries)
 ```dax
 Nb Pays = DISTINCTCOUNT(Dim_Pays[company_location])
 ```
@@ -30,7 +30,7 @@ Returns the number of distinct countries represented in the dataset.
 
 ---
 
-### Salaire Max (Maximum Salary)
+### Max Salary (Maximum Salary)
 ```dax
 Salaire Max = MAX(Fact_Salaires[salary_in_usd])
 ```
@@ -38,7 +38,7 @@ Returns the highest salary value in the filtered context.
 
 ---
 
-### Salaire Min (Minimum Salary)
+### Min Salary (Minimum Salary)
 ```dax
 Salaire Min = MIN(Fact_Salaires[salary_in_usd])
 ```
@@ -48,7 +48,7 @@ Returns the lowest salary value in the filtered context.
 
 ## Advanced Measures
 
-### Croissance Salaire (Salary Growth Rate)
+### Salary Growth
 ```dax
 Croissance Salaire = 
 VAR SalaireAnneeActuelle = AVERAGE(Fact_Salaires[salary_in_usd])
@@ -73,7 +73,7 @@ DIVIDE(SalaireAnneeActuelle - SalaireAnneePrec, SalaireAnneePrec, 0)
 
 ---
 
-### Rank Metier (Job Title Ranking)
+### Rank JobTitle (Job Title Ranking)
 ```dax
 Rank Metier = 
 RANKX(
@@ -126,8 +126,8 @@ This keeps the data model clean and makes measures easy to locate and maintain.
 ## Star Schema Context
 
 These measures operate on the **Fact_Salaires** table, which is connected via 1:* relationships to:
-- `Dim_Temps` (work_year)
-- `Dim_Metier` (job_title)
-- `Dim_Pays` (company_location)
+- `Dim_Time` (work_year)
+- `Dim_JobTitle` (job_title)
+- `Dim_Country` (company_location)
 - `Dim_Experience` (experience_level)
-- `Dim_Contrat` (employment_type)
+- `Dim_Contract` (employment_type)
