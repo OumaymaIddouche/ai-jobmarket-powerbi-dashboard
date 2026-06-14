@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AI & Data Science Job Market Analysis — Power BI Dashboard
 
 An interactive Power BI dashboard analyzing the global AI, Data Science, and Big Data job market — salaries, experience levels, remote work trends, and geographic distribution — built on a professional star schema data model.
