@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AI & Data Science Job Market Analysis — Power BI Dashboard
 
 An interactive Power BI dashboard analyzing the global AI, Data Science, and Big Data job market — salaries, experience levels, remote work trends, and geographic distribution — built on a professional star schema data model.
@@ -132,3 +133,6 @@ Source: [Data Science Job Salaries — Kaggle](https://www.kaggle.com/datasets/r
 **Oumayma Iddouche**
 Data Science & AI Engineering Student — ENSIASD
 [LinkedIn](https://www.linkedin.com/in/oumayma-iddouche) · [GitHub](https://github.com/OumaymaIddouche)
+=======
+# ai-jobmarket-powerbi-dashboard
+>>>>>>> 38a4e0fc17ef2451096a29ffcea1fea76778b6ae
