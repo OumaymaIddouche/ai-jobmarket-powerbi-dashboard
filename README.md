@@ -32,7 +32,7 @@ Detailed salary breakdown by job title and year (matrix), salary comparison by e
 ### 3. Geography
 World map, top 10 countries by salary and by number of offers, company size distribution by country.
 
-![Geography](screenshots/geaography.png)
+![Geography](screenshots/geography.png)
 
 ### 4. Country Details (Drill-through)
 Country-specific deep dive accessible via navigation button — salary by job title, experience and remote work breakdown for the selected country.
