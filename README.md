@@ -28,17 +28,17 @@ General KPIs, salary trends, top-paying job titles, world map of salaries, exper
 ### 2. Salary Deep Analysis
 Detailed salary breakdown by job title and year (matrix), salary comparison by experience level, max vs min salary by role, and job title ranking.
 
-![Salary Analysis](screenshots/salaires.png)
+![Salary Analysis](screenshots/salaries.png)
 
 ### 3. Geography
 World map, top 10 countries by salary and by number of offers, company size distribution by country.
 
-![Geography](screenshots/geography.png)
+![Geography](screenshots/geaography.png)
 
 ### 4. Country Details (Drill-through)
 Country-specific deep dive accessible via navigation button — salary by job title, experience and remote work breakdown for the selected country.
 
-![Country Details](screenshots/details_pays.png)
+![Country Details](screenshots/country_details.png)
 
 ---
 
@@ -132,7 +132,7 @@ Source: [Data Science Job Salaries — Kaggle](https://www.kaggle.com/datasets/r
 
 **Oumayma Iddouche**
 Data Science & AI Engineering Student — ENSIASD
-[LinkedIn](https://www.linkedin.com/in/oumayma-iddouche) · [GitHub](https://github.com/OumaymaIddouche)
+[LinkedIn](https://www.linkedin.com/in/oumayma-iddouche-009466225/) · [GitHub](https://github.com/OumaymaIddouche)
 =======
 # ai-jobmarket-powerbi-dashboard
 >>>>>>> 38a4e0fc17ef2451096a29ffcea1fea76778b6ae
