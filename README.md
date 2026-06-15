@@ -45,7 +45,7 @@ Country-specific deep dive accessible via navigation button — salary by job ti
 
 The dataset was restructured from a single flat table into a proper **star schema** for optimal performance and scalability:
 
-![Star Schema](documentation/star_schema.png)
+![Star Schema](screenshots/star_schema.png)
 
 ```
               Dim_Temps
